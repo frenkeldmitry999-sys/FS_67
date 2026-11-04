@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Poller One", sans-serif;
+    background-image: url(../Images/sky.jpg);
+    color: #ffc500;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(68, 69, 67, 0.6);
+    position: fixed;
+    /* background-attachment: fixed; */
+}
+
+header {
+    border-radius: 16px 16px 0 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5em 0;
+}
+
+nav {
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    border: 2px solid #ffc500;
+    background-color: rgba(203, 3, 35, 0.5);
+    font-size: 1rem;
+    padding: 0.3em 0.6em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 0.2em;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    border-radius: 30px;
+    margin: 0.3rem 1.2rem 0 0;
+}
+
+.left img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    border: 1px solid #ffc500;
+    border-radius: 30px;
+    margin: 0.3rem 0 0 1.2rem;
+}
+
+.right table {
+    width: 100%;
+}
+
+.right img {
+    width: 100%;
+    border-radius: 0.2rem
+}
+
+.far_galaxy {
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: rgba(68, 69, 67, 0.6);
+    position: fixed;
+    border-radius: 0 0 16px 16px;
+}
